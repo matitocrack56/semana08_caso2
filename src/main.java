@@ -38,4 +38,8 @@ public class main {
         System.out.println("\n" + r4.getDescripcion());
         r4.generar();
     }
+    //Se utilizó el patrón Decorator porque permite agregar funcionalidades adicionales a un
+    // reporte de manera dinámica y modular, sin modificar la estructura del reporte base.
+    // Además, facilita combinar diferentes secciones como totales, gráficos y envíos sin
+    // crear una clase distinta para cada combinación posible.
 }
